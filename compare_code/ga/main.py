@@ -40,6 +40,7 @@ while(gen_no<max_gen):
     for valuez in non_dominated_sorted_solution[0]:
         print(function1(solution[valuez]), function2(solution[valuez]), end=" ")
         print(solution[valuez])
+        pass
     print("\n")
 
     # Step 2.1 Generating offsprings through crossover
